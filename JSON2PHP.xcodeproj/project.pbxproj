@@ -13,6 +13,8 @@
 		627855371B8C04CC0075EA5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627855361B8C04CC0075EA5C /* Images.xcassets */; };
 		6278553A1B8C04CC0075EA5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 627855381B8C04CC0075EA5C /* Main.storyboard */; };
 		627855461B8C04CC0075EA5C /* JSON2PHPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 627855451B8C04CC0075EA5C /* JSON2PHPTests.m */; };
+		627855511B8C05370075EA5C /* ObjectPhpResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 627855501B8C05370075EA5C /* ObjectPhpResult.m */; };
+		627855531B8C05720075EA5C /* source.txt in Resources */ = {isa = PBXBuildFile; fileRef = 627855521B8C05720075EA5C /* source.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,9 @@
 		6278553F1B8C04CC0075EA5C /* JSON2PHPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSON2PHPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		627855441B8C04CC0075EA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		627855451B8C04CC0075EA5C /* JSON2PHPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSON2PHPTests.m; sourceTree = "<group>"; };
+		6278554F1B8C05370075EA5C /* ObjectPhpResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectPhpResult.h; sourceTree = "<group>"; };
+		627855501B8C05370075EA5C /* ObjectPhpResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectPhpResult.m; sourceTree = "<group>"; };
+		627855521B8C05720075EA5C /* source.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = source.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,9 @@
 		6278552B1B8C04CC0075EA5C /* JSON2PHP */ = {
 			isa = PBXGroup;
 			children = (
+				627855521B8C05720075EA5C /* source.txt */,
+				6278554F1B8C05370075EA5C /* ObjectPhpResult.h */,
+				627855501B8C05370075EA5C /* ObjectPhpResult.m */,
 				6278552E1B8C04CC0075EA5C /* AppDelegate.h */,
 				6278552F1B8C04CC0075EA5C /* AppDelegate.m */,
 				627855331B8C04CC0075EA5C /* ViewController.h */,
@@ -196,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				627855531B8C05720075EA5C /* source.txt in Resources */,
 				627855371B8C04CC0075EA5C /* Images.xcassets in Resources */,
 				6278553A1B8C04CC0075EA5C /* Main.storyboard in Resources */,
 			);
@@ -217,6 +226,7 @@
 			files = (
 				627855351B8C04CC0075EA5C /* ViewController.m in Sources */,
 				627855321B8C04CC0075EA5C /* main.m in Sources */,
+				627855511B8C05370075EA5C /* ObjectPhpResult.m in Sources */,
 				627855301B8C04CC0075EA5C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

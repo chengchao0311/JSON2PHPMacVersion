@@ -1,0 +1,18 @@
+{
+"rtnMsg": "Operate Success",
+"rtnCode": "10000",
+"content": [
+{
+"imgUrl": "http: //url",
+"type": "1",
+"desc": "xxxxx",
+"attribute": "123123"
+},
+{
+"imgUrl": "http: //url",
+"type": "1",
+"desc": "xxxxx",
+"attribute": "123123"
+}
+]
+}
